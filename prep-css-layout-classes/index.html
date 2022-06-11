@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: midnightblue;
+      font-weight: bolder;
+    }
+
+    h4 {
+      color: darkred;
+    }
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img {
+      width: 100%;
+    }
+
+    .grow img{
+      transition: 1s ease;
+    }
+
+    .grow img:hover{
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: 1s ease;
+    }
+  </style>
+</head>
+<body>
+  <h1>Top 3 Highest-Grossing Animated Films in Japan of All-Time!</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <a class="grow" href="https://www.imdb.com/title/tt11032374/" target="_blank">
+          <img src="https://ae01.alicdn.com/kf/H3db7aa2ba48c487e8bcaf4f4543e8db5c/2020-Japan-Comic-Movie-Demon-Slayer-Mugen-Train-SILK-POSTER-Decorative-painting-Home-Decor.jpg" alt="Demon Slayer: Mugen Train movie poster">
+        </a>
+        <h3> 1. Demon Slayer: Mugen Train</h3>
+        <h4>¥40.32 Billion</h4>
+        <p>Based on the manga written &amp; illustrated by Koyoharu Gotouge, Demon Slayer: Mugen Train is the most successful Japanese
+        movie in history. It holds all the box-office records to its name as it collected more than $500 million worldwide
+        becoming the highest-grossing anime movie of 2020.</p>
+        <p>This was the first time a non-Hollywood film topped the annual box-office chart. Even after being released amid the
+        Covid crisis, the film was able to make a huge profit of 40 billion yen in Japan. Later on, it went on to receive
+        multiple awards, including the Japan Academy Film Prize for Best Animation in 2021.</p>
+        <p>Demon Slayer: Mugen Train is an action-adventure anime movie about the Flame Hashira Rengoku Kyojuro and the troublesome
+        trio of Tanjiro, Zenitsu and Inosuke who boards a train to investigate the mystery about the disappearance of 40 people
+        from a moving train.</p>
+      </div>
+      <div class="column">
+        <a class="grow" href="https://www.imdb.com/title/tt0245429/" target="_blank">
+          <img src="https://m.media-amazon.com/images/I/71MZFgwqkMS._AC_SL1354_.jpg" alt="Spirited Away movie poster">
+        </a>
+        <h3>2. Spirited Away</h3>
+        <h4>¥31.68 Billion</h4>
+        <p>Half of the movies listed in this section are created by popular Japanese director, Hayao Miyazaki and Spirited Away is
+        another one among them. It was No.1 in the list of highest-grossing anime films in Japan &amp; internationally as well,
+        until Demon Slayer: Mugen Train dethroned it from the top spot.</p>
+
+        <p>Miyazaki wrote the screenplay of Spirited Away in the 2000s and launched it on the big screen after its completion. The
+        response from the movie was unbelievable as it grossed more than 31.68 billion yen in Japan and won an Oscar in
+        succession as well becoming the first anime film ever to do so.</p>
+
+        <p>Spirited Away tells the story of a 10-year-old girl Chihiro Ogino who while moving to a new neighborhood, enters the
+        world of Kami (spirits of Japanese Shinto folklore). After her parents are turned into pigs by a witch named Yubaba,
+        Chihiro takes a job working in Yubaba's bathhouse to find a way to free herself and her parents and return to the human
+        world.</p>
+      </div>
+      <div class="column">
+        <a class="grow" href="https://www.imdb.com/title/tt5311514/" target="_blank">
+          <img src="https://miro.medium.com/max/390/0*KLTll2Q5O8ajzvhK.jpg" alt="Your Name movie poster">
+        </a>
+        <h3>3. Your Name</h3>
+        <h4>¥25.03 Billion</h4>
+        <p>Your Name is hailed to be the best anime film by well-known director &amp; filmmaker Makoto Shinkai which was released in
+        the theaters in 2016. It received very positive reviews from the viewers and turned out to be the most successful
+        animated film in history grossing its box-office tally to US $380 million.</p>
+        <p>Moreover, it earned many recognisable awards including the 2016 Los Angeles Films Critics Association Awards and 71st
+        Mainichi Film Awards for Best Animation Feature Film. Sadly, even after delivering such an Oscar deserving performance
+        in the theaters, the movie didn't even get nominated for once.</p>
+        <p>Your Name tells the beautiful story of two teenagers who finds themselves swapping their bodies and growing closer &amp;
+        closer in this process. But, later they discover that they both exist in two different timelines. The unconditional bond
+        between these two and one's attempt to protect the other is a pleasure to watch.</p>
+      </div>
+    </div>
+</body>
+</html>
